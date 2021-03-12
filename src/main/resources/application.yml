@@ -8,12 +8,13 @@ spring:
     name: monitoramento
   data:
     mongodb:
-      authentication-database: imagens
-      username: monitoramento
-      password: monitoramento
-      database: imagens
-      port: 27017
-      host: localhost
+#      authentication-database: imagens
+#      username: monitoramento
+#      password: monitoramento
+#      database: imagens
+#      port: 27017
+#      host: localhost
+      uri: mongodb://monitoramento:monitoramento@cluster-tcc.26f15.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 eureka:
   instance:
@@ -22,3 +23,4 @@ eureka:
     service-url:
       ##defaultZone: http://localhost:8761/registry/eureka
       defaultZone: http://tcc-discovery.herokuapp.com/registry/eureka/
+      
