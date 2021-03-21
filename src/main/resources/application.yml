@@ -9,12 +9,12 @@ spring:
   data:
     mongodb:
 #      authentication-database: imagens
-#      username: monitoramento
-#      password: monitoramento
+      username: monitoramento
+      password: monitoramento
       database: imagens
-#      port: 27017
-#      host: localhost
-      uri: mongodb+srv://monitoramento:monitoramento@cluster-tcc.26f15.mongodb.net/imagens?retryWrites=true
+      port: 27017
+      host: cluster-tcc.26f15.mongodb.net/imagens?retryWrites=true
+#      uri: mongodb+srv://monitoramento:monitoramento@cluster-tcc.26f15.mongodb.net/imagens?retryWrites=true
 
 eureka:
   instance:
