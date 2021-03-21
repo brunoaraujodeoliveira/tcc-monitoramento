@@ -8,13 +8,13 @@ spring:
     name: monitoramento
   data:
     mongodb:
-#      authentication-database: imagens
-#      username: monitoramento
-#      password: monitoramento
-#      database: imagens
+      authentication-database: imagens
+      username: monitoramento
+      password: monitoramento
+      database: imagens
 #      port: 27017
 #      host: localhost
-      uri: mongodb://monitoramento:monitoramento@cluster-tcc.26f15.mongodb.net/imagens
+      uri: mongodb+srv://cluster-tcc.26f15.mongodb.net/
 
 eureka:
   instance:
