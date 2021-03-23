@@ -6,19 +6,17 @@ server:
 spring:
   application:
     name: monitoramento
-#  data:
-#    mongodb:
+  data:
+    mongodb:
 #      authentication-database: imagens
 #      username: monitoramento
 #      password: monitoramento
 #      database: imagens
 #      port: 27017
 #      host: localhost
-#      uri: mongodb+srv://monitoramento:monitoramento@cluster-tcc.26f15.mongodb.net/imagens
+      uri: mongodb+srv://monitoramento:monitoramento@cluster-tcc.26f15.mongodb.net/imagens
 
 eureka:
-  instance:
-    hostname: localhost
   client:
     service-url:
       ##defaultZone: http://localhost:8761/registry/eureka
